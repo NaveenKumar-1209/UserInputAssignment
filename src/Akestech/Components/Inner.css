@@ -1,0 +1,38 @@
+.inner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:3rem;
+}
+
+.inner .btn{
+    padding-left:3rem;
+}
+
+button {
+    font: inherit;
+    background: #f58142;
+    padding: 0.5rem 2rem;
+    color: white;
+    border: 1px solid #fff;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover,
+  button:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+    background: #ff2058;
+    border: 1px solid #ff2058;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .messageText {
+    text-align: center;
+    padding-top: 20px;
+    color: #f58142;
+  }

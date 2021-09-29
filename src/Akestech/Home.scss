@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.navbar{
+    width:100vw;
+    height:5rem;
+    background-color: #d97700;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    .brand{
+        color:#fff;
+        font-size: 1.5rem;
+    }
+    .Registration{
+        .user{
+            padding-left: 15px; 
+            font-weight: bold;
+            color:#fff;
+        } 
+    }
+}
+
+

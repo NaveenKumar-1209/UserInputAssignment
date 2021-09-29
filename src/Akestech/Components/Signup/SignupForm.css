@@ -1,0 +1,72 @@
+.MainBody {
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  margin: 10px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+}
+.MainBody .title {
+  position: relative;
+}
+
+.MainBody form .user-details {
+  justify-content: space-between;
+}
+form .user-details .input-box {
+  margin: 20px 0 12px 0;
+  width: 100%;
+}
+.user-details .input-box label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus {
+  border-color: #9b59b6;
+}
+.user-details .input-box input:invalid {
+  border: 2px solid red;
+}
+form .btn {
+  height: 45px;
+  margin: 45px 0;
+}
+form .btn button {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background-color: #d97700;
+}
+form .btn button:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+}
+
+form .btn button:disabled,
+form .btn button:disabled:hover,
+form .btn button:disabled:active {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.26);
+
+  border-color: #ccc;
+  cursor: not-allowed;
+}
